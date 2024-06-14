@@ -3,7 +3,7 @@
     <ExpanderVideo
       filename="1080.mp4"
       :autoplay="true"
-      url="https://secure.adnxs.com/clktrb?id=802715&redir=https://ad.doubleclick.net/ddm/trackclk/N9166.4661577SHOWHEROESNO/B31787091.391082153;dc_trk_aid=582555944;dc_trk_cid=212504900;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;ltd=;dc_tdv=1"
+      url="https://secure.adnxs.com/clktrb?id=806640&redir=https://ad.doubleclick.net/ddm/trackclk/N9166.4661577SHOWHEROESNO/B32127914.396947846;dc_trk_aid=588724183;dc_trk_cid=216809167;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;ltd=;dc_tdv=1"
     />
   </section>
 
@@ -25,14 +25,14 @@
       </p>
       <div class="actions">
         <a
-          href="https://secure.adnxs.com/clktrb?id=802714&redir=https://ad.doubleclick.net/ddm/trackclk/N9166.4661577SHOWHEROESNO/B31787091.391086982;dc_trk_aid=582555938;dc_trk_cid=212987385;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;ltd=;dc_tdv=1"
+          href="https://secure.adnxs.com/clktrb?id=806641&redir=https://ad.doubleclick.net/ddm/trackclk/N9166.4661577SHOWHEROESNO/B32127914.396949625;dc_trk_aid=588734352;dc_trk_cid=216809167;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;ltd=;dc_tdv=1"
           target="_blank"
           class="cta"
         >
           Be om prøvekjøring
         </a>
         <a
-          href="https://secure.adnxs.com/clktrb?id=802714&redir=https://ad.doubleclick.net/ddm/trackclk/N9166.4661577SHOWHEROESNO/B31787091.391086982;dc_trk_aid=582555938;dc_trk_cid=212987385;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;ltd=;dc_tdv=1"
+          href="https://secure.adnxs.com/clktrb?id=806642&redir=https://ad.doubleclick.net/ddm/trackclk/N9166.4661577SHOWHEROESNO/B32127914.397231263;dc_trk_aid=588734355;dc_trk_cid=216809167;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;ltd=;dc_tdv=1"
           target="_blank"
           class="cta"
         >
@@ -82,15 +82,13 @@
     </div>
   </section>
 
-  <!-- image scroller  -->
-
-  <!-- <section class="section-scroller">
-    <ExpanderScroller />
-  </section> -->
+  <section class="section-scroller">
+    <ExpanderSliderAlt />
+  </section>
 
   <footer class="section-footer">
     <a
-      href="https://secure.adnxs.com/clktrb?id=802715&redir=https://ad.doubleclick.net/ddm/trackclk/N9166.4661577SHOWHEROESNO/B31787091.391082153;dc_trk_aid=582555944;dc_trk_cid=212504900;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;ltd=;dc_tdv=1"
+      href="https://secure.adnxs.com/clktrb?id=806647&redir=https://ad.doubleclick.net/ddm/trackclk/N9166.4661577SHOWHEROESNO/B32127914.396947846;dc_trk_aid=588724183;dc_trk_cid=216809167;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;ltd=;dc_tdv=1"
       target="_blank"
       class="logo"
     >
@@ -101,13 +99,13 @@
   <footer class="footer">
     <div class="actions">
       <a
-        href="https://secure.adnxs.com/clktrb?id=802713&redir=https://ad.doubleclick.net/ddm/trackclk/N9166.4661577SHOWHEROESNO/B31787091.391083902;dc_trk_aid=582555941;dc_trk_cid=212987382;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;ltd=;dc_tdv=1"
+        href="https://secure.adnxs.com/clktrb?id=806643&redir=https://ad.doubleclick.net/ddm/trackclk/N9166.4661577SHOWHEROESNO/B32127914.396949625;dc_trk_aid=588734352;dc_trk_cid=216809167;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;ltd=;dc_tdv=1"
         target="_blank"
         class="cta-2"
         >Be om prøvekjøring</a
       >
       <a
-        href="https://secure.adnxs.com/clktrb?id=802714&redir=https://ad.doubleclick.net/ddm/trackclk/N9166.4661577SHOWHEROESNO/B31787091.391086982;dc_trk_aid=582555938;dc_trk_cid=212987385;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;ltd=;dc_tdv=1"
+        href="https://secure.adnxs.com/clktrb?id=806644&redir=https://ad.doubleclick.net/ddm/trackclk/N9166.4661577SHOWHEROESNO/B32127914.397231263;dc_trk_aid=588734355;dc_trk_cid=216809167;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;ltd=;dc_tdv=1"
         target="_blank"
         class="cta-2"
       >
@@ -120,12 +118,14 @@
 <script>
 import ExpanderVideo from "./components/ExpanderVideo.vue";
 import ExpanderSlider from "./components/ExpanderSlider.vue";
+import ExpanderSliderAlt from "./components/ExpanderSliderAlt.vue";
 
 export default {
   name: "App",
   components: {
     ExpanderVideo,
     ExpanderSlider,
+    ExpanderSliderAlt,
   },
   data() {
     return {
@@ -241,6 +241,20 @@ button {
   justify-content: center;
   align-items: center;
   background: #102b4e;
+  @include m {
+    height: 4rem;
+  }
+  .actions {
+    @include m {
+      display: flex;
+      padding: 0 1rem;
+      a {
+        margin: 0 .5rem;
+        padding: 0.5rem .625rem;
+        font-size: .875rem;
+      }
+    }
+  }
 }
 </style>
 

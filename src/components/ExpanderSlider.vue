@@ -3,7 +3,7 @@
     <div class="slider" ref="slider">
       <article class="item" v-for="item in items" :key="item">
         <a
-          href="https://secure.adnxs.com/clktrb?id=802715&redir=https://ad.doubleclick.net/ddm/trackclk/N9166.4661577SHOWHEROESNO/B31787091.391082153;dc_trk_aid=582555944;dc_trk_cid=212504900;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;ltd=;dc_tdv=1"
+          href="https://secure.adnxs.com/clktrb?id=806646&redir=https://ad.doubleclick.net/ddm/trackclk/N9166.4661577SHOWHEROESNO/B32127914.396947846;dc_trk_aid=588724183;dc_trk_cid=216809167;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;ltd=;dc_tdv=1"
           target="_blank"
           class="inner"
           @click="$emit('track', 'test')"
@@ -12,7 +12,7 @@
             <h1 class="title">{{ item[0] }}</h1>
             <div v-html="item[1]"></div>
             <a
-              href="https://secure.adnxs.com/clktrb?id=802715&redir=https://ad.doubleclick.net/ddm/trackclk/N9166.4661577SHOWHEROESNO/B31787091.391082153;dc_trk_aid=582555944;dc_trk_cid=212504900;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;ltd=;dc_tdv=1"
+              href="https://secure.adnxs.com/clktrb?id=806645&redir=https://ad.doubleclick.net/ddm/trackclk/N9166.4661577SHOWHEROESNO/B32127914.396947846;dc_trk_aid=588724183;dc_trk_cid=216809167;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;ltd=;dc_tdv=1"
               target="_blank"
               class="cta"
               >Les mer</a
